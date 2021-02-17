@@ -19,5 +19,6 @@ namespace MercadoCompras.Database
         public DbSet<Producto> Productos { get; set; }
         public DbSet<Sucursal> Sucursales { get; set; }
         public DbSet<StockItem> StockItems { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
     }
 }
